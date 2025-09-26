@@ -1,0 +1,3 @@
+# Survey Documentation Note
+
+In this replication package, we provide a cleaned and anonymized version of the post-session survey used in our study. The original survey instrument contained administrative fields (e.g., student IDs, compensation options, course identifiers) that could deanonymize our institution or participants. To comply with double-blind review requirements, we removed these identifiers and reformatted the survey into a paper-ready appendix that preserves the full question text and branching logic relevant to replication. This version ensures that reviewers and future researchers can see exactly what was asked of participants while maintaining participant confidentiality and institutional anonymity.
