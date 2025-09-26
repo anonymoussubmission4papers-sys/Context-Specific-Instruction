@@ -1,0 +1,12 @@
+Code ID,Snippet Name,Practice uses,Test uses,Notes
+C1,AStar,0,44,used as T0 for all participants
+C2,Student-department-info,27,16,
+C3,BattleShip,24,20,
+C4,Dijkstras,17,28,
+C5,Employee-Management-ID,22,21,
+C7,Compression,18,26,
+C8,PrimeTester,22,22,
+C9,BucketSort,22,22,
+C10,TravellingSalesman,22,21,
+C11,Prims,25,19,
+C13,TarjansBridgeFinder,19,23,

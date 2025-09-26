@@ -1,0 +1,12 @@
+Code ID,Snippet Name,LOC,AvgCC,TotalClasses,TotalMethods,FileCount,Bug information (verbatim),Bug Type,Bug Location (relative)
+C1,AStar,409,17.25,11,25,4,"Bug: Incorrectly calculating fScore by adding gScore twice instead of adding heuristic (Calculate.cs, line 52)",Computation / Scoring,A* score update within loop
+C2,Student-department-info,3954,18.06,19,101,18,"bug is updating all department information but not only the selected ones. (departUpdateForm.cs, line 64)",Control-flow / Loop logic,DB update path (UI→DB handler)
+C3,Battleship,323,16,4,13,4,"bug is allowing ships to be overlapped (Gameboard.cs, PlaceShip method, line 163).",Validation / Constraint,Ship placement check (board validation)
+C4,Dijkstras,160,9,4,11,3,"bug is keep update the distance by adding weights the distance of the startnode it should be the current node (FindPath.cs, line 39)",Control-flow / Loop logic,FindPath() main loop (mid-body)
+C5,Employee-Management-ID,484,6.75,4,14,8,"bug is do not check for existing IDs, which can lead to collisions (Company.cs, line 37)",Validation / Constraint,Mid-calculation region
+C7,Compression,430,13.6,6,26,5,"Bug is Incorrectly assigning frequencies to the parent node, Using Max instead of Sum. (HuffmanCoding.cs, line 90)",Data structures / Frequencies,Frequency table construction
+C8,PrimerTest,473,26.25,8,26,4,The bug is in the GetPrimeFactors method of the PrimeFactorization class in the NumberTheory.cs file. The method uses Math.Sqrt(number) as the upper limit of the main loop that finds prime factors. It should use number instead of Math.Sqrt(number) as the upper limit,Control-flow / Loop logic,GetPrimeFactors() method
+C9,BucketSort,157,6,6,6,4,"the bug is reverse the order of elements in each bucket (Sort.cs, line 41)",Control-flow / Loop logic,Bucket gather/merge phase
+C10,TravellingSalesman,353,12.2,5,23,5,"the bug is incorrectly calculating the total distance by subtracting instead of adding (TspSolver.cs, line 55)",Computation / Scoring,Mid-calculation region
+C11,Prims,352,14.75,5,23,4,"the bug is that instead of finding the edge with the minimum weight, it now finds the edge with the maximum weight (Calculate.cs, FindEdgeToAdd, line 69)",Computation / Scoring,Mid-calculation region
+C13,TanjansBridge,414,15.2,6,15,5,"bug is max should be min, it will cause the algorithm to miss some bridges in the graph because it's not correctly propagating the lowest reachable vertex index. (bridgefinder.cs, line 40)",Logical error,Mid-calculation region
